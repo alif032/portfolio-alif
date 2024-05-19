@@ -1,0 +1,17 @@
+# Mengatur perilaku default
+* text=auto
+
+# Secara eksplisit menyatakan file teks yang ingin selalu dinormalisasi dan diubah menjadi akhir baris asli saat diperiksa
+*.c text
+*.h text
+
+# Menyatakan file yang akan selalu memiliki akhir baris CRLF saat diperiksa
+*.sln text eol=crlf
+
+# Menyatakan file yang akan selalu memiliki akhir baris LF saat diperiksa
+*.sh text eol=lf
+
+# File biner harus dibiarkan tidak tersentuh
+*.png binary
+*.jpg binary
+
